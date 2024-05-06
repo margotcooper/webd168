@@ -1,0 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+/*makes it easy to change colors through site with one change */
+body {
+  background-color: rgb(105, 105, 105);
+  font-family: "Roboto Slab", "monospace";
+}/*# sourceMappingURL=main.css.map */

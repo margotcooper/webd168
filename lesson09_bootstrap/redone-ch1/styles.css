@@ -1,0 +1,16 @@
+/* CSS Stylesheet for bio.html */
+body {
+    font-family: monospace, serif;
+    background-color: dimgrey;
+    color: cornsilk;
+    margin: 10px;
+}
+h2 {
+    font-size: larger;
+}
+h1 {
+    text-decoration: underline;
+}
+img {
+    size: 40%;
+}
