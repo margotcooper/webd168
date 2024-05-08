@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Exercise in Bootstrap with Information and Music to code to."> <!-- Update this content-->
+    <meta name="author" content="Margot Cooper Gruen"> <!-- Update this content-->
+    <title>Margot Cooper Gruen</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Bootstrap Icons CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <div class="container px-4">
+            <a class="navbar-brand" href="#page-top">Margot Cooper Gruen</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#music">Music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header-->
+    <header class="bg-secondary bg-gradient text-white">
+        <div class="container px-4 text-center">
+            <h1 class="fw-bolder">Coding Examples and Music Ratings</h1>
+            <p class="lead">
+                Coding information, examples, and suggestions
+            </p>
+            <a class="btn btn-lg btn-light" href="#about">Check it out</a>
+        </div>
+    </header>
+    <!-- About section-->
+    <section id="about">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>About This Page</h2>
+                    <p class="lead">
+                        This page was created using Bootstrap. When that was not sufficient, SCSS was used to customize the page even further. Bootstrap and SCSS are amazing for the following reasons:
+                    </p>
+                    <ul>
+                        <li>Bootstrap allow for developers to implement design and function elements without requiring them to build such features from the ground up.</li>
+                        <li>
+                            Bootstrap's ease of use makes it so that anyone with fundamental coding knowledge is able to build a sophisticated product.
+                        </li>
+                        <li>
+                           Bootstrap's pre-programmed elements allow for optimization and reusability.
+                        </li>
+                        <li>
+                           SCSS is arguably simpler and quicker to produce (than CSS), as well as makes stylesheet code easier to maintain.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Music section-->
+    <section class="bg-light" id="music">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>Music to Code To</h2>
+                    <p class="lead">
+                        There's nothing like a good soundtrack to code to, whether coding for work or on the side. The following songs are recommended and rated as to how good of a song they are to program/jam out to. Note: ratings are not based on taste, rather truly how good the music is for coding alongside.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <table class="table table-responsive table-striped table-bordered inventory">
+                        <!-- inventory class created, other two are bootstrap. -->
+                        <caption class="text-end">
+                            Table 1: Music
+                        </caption>
+                        <thead class="text-uppercase table-light">
+                            <tr> 
+                                <!-- scope="row"> -->
+                                <th scope="col">Song</th>
+                                <th scope="col">Artist</th>
+                                <th scope="col">Rating</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>How Soon Is Now?</td>
+                                <td>The Smiths</td>
+                                <td class="rating">
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill purple"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Whip It</td>
+                                <td>Devo</td>
+                                <td class="rating">
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Blue Monday</td>
+                                <td>New Order</td>
+                                <td class="rating">
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Fools Gold</td>
+                                <td>The Stone Roses</td>
+                                <td class="rating">
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Head Like a Hole</td>
+                                <td>Nine Inch Nails</td>
+                                <td class="rating">
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill purple"></i>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Bizarre Love Triangle</td>
+                                <td>New Order</td>
+                                <td class="rating">
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Never Let Me Down Again</td>
+                                <td>Depeche Mode</td>
+                                <td class="rating">
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>It's The End Of The World As We Know It (And I Feel Fine)</td>
+                                <td>R.E.M.</td>
+                                <td class="rating">
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Shout</td>
+                                <td>Tears For Fears</td>
+                                <td class="rating">
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill purple"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact section-->
+    <section id="contact">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>Contact</h2>
+                    <p class="lead">
+                        Feedback welcomed for improvements to this template and/or the music selections.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <form name="subform" method="post" action="submit.html">
+                        <div class="row g-3 mb-3">
+                            <div class="col-sm-6">
+                                <label for="fname" class="form-label">First Name:</label>
+                                <input type="text" class="form-control" placeholder="First name" id="fname" required>
+                                <!-- label for ___ matches input id to connect them -->
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="lname" class="form-label">Last Name:</label>
+                                <input type="text" class="form-control" placeholder="Last name" id="lname" required>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address:</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                        </div>
+                        <fieldset class="row mb-3">
+                            <legend class="col-form-label col-sm-6 pt-0">
+                                Vote for your favorite song(s):
+                            </legend>
+                            <div>
+                            <select class="form-select" multiple aria-label="List of songs from page to select one or multiple">
+                                <option selected>Songs listed below. Select one or more.</option>
+                                <option value="1">How Soon Is Now?</option>
+                                <option value="2">Whip It</option>
+                                <option value="3">Blue Monday</option>
+                                <option value="4">Fools Gold</option>
+                                <option value="5">Head Like a Hole</option>
+                                <option value="6">Bizarre Love Triangle</option>
+                                <option value="6">Never Let Me Down Again</option>
+                                <option value="6">It's The End Of The World As We Know It (And I Feel Fine)</option>
+                                <option value="6">Shout</option>
+                              </select>
+                            </div>        
+
+
+                            <!-- <div class="col-sm-10">
+                                <div class="form-check"> -->
+                                    <!-- Radio group must share same name to connect them/be treated as a group. -->
+                                    <!-- Value attribute defines unique value associated with each radio button. Value not shown to user, is what is sent to server when select subscribe button/to identify what radio button was selected. -->
+                                    <!-- <input class="form-check-input" type="radio" name="radios" id="radio1"
+                                        value="novice" checked>
+                                    <label class="form-check-label" for="radio1">
+                                        Novice
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="radios" id="radio2"
+                                        value="intermediate">
+                                    <label class="form-check-label" for="radio2">
+                                        Intermediate
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="radios" id="radio3"
+                                        value="advanced">
+                                    <label class="form-check-label" for="radio3">
+                                        Advanced
+                                    </label>
+                                </div>
+                            </div> -->
+                        </fieldset>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">@</span>
+                                <input type="text" class="form-control" placeholder="GitHub Username" aria-label="Username" aria-describedby="basic-addon1">
+                              </div>
+                        <div class="mb-3">
+                            <!-- label for="refer"  -->
+                            <label class="form-label">How did you hear about us?</label><select
+                                class="form-select" multiple aria-label="Default select example">
+                                <!-- Only one choice (by default), unless 'multiple' attribute added after id to allow multiple selections. -->
+                                <!-- <option selected>Select One</option> -->
+                                <option value="1">Friend</option>
+                                <option value="2">Instagram</option>
+                                <option value="3">Facebook</option>
+                                <option value="4">Twitter</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="comments" class="form-label">Any Additional Comments?</label>
+                            <textarea class="form-control" id="comments" rows="3" maxlength="100"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-secondary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container px-4">
+            <p class="m-0 text-center text-white">
+                Copyright &copy; Margot Cooper Gruen 2024
+            </p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

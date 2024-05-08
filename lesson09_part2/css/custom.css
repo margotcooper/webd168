@@ -1,0 +1,21 @@
+caption {
+  caption-side: top;
+}
+
+.table-dark {
+  --bs-table-bg: #495057;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+.light-grey {
+  color: #f8f9fa;
+}
+
+.purple {
+  color: #8a2be2;
+}/*# sourceMappingURL=custom.css.map */
