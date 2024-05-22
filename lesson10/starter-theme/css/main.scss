@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+$colors: (
+    primary: #696969,
+    primary-light: lighten(#696969, 38%),
+    accent: rgb(255, 239, 186),
+    darkprimary: #616161
+);
+
+
+/*makes it easy to change colors through site with one change */
+
+$font-main: 'Roboto Slab', 'monospace';
+$lesspadding: 
+
+// @function function-name($args) {
+//     @return value-to-be-returned;
+// }
+
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+}
+
+body {
+    background-color: color(primary);
+    font-family: $font-main;
+}
+
+$enable-negative-margins: true;
+
+.mt-n1 {
+    margin-top: -0.25rem !important;
+  }
+
+li {
+    margin-bottom: 8px;
+}
+
+
